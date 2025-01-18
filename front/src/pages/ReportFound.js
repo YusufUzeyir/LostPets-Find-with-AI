@@ -16,24 +16,10 @@ import {
 } from '@mui/material';
 import { useAuth } from '../context/AuthContext';
 import Swal from 'sweetalert2';
-import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts';
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts';
 import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
 
 const COLORS = ['#15F5BA', '#687EFF', '#EBF400'];
-
-// Base64'e çevirme fonksiyonu
-const convertToBase64 = (file) => {
-  return new Promise((resolve, reject) => {
-    const fileReader = new FileReader();
-    fileReader.readAsDataURL(file);
-    fileReader.onload = () => {
-      resolve(fileReader.result);
-    };
-    fileReader.onerror = (error) => {
-      reject(error);
-    };
-  });
-};
 
 const ReportFound = () => {
   const navigate = useNavigate();

@@ -88,17 +88,6 @@ const Navbar = ({ toggleColorMode, mode }) => {
     navigate('/messages', { state: { showAll: true } });
   };
 
-  const checkUnreadMessages = async () => {
-    try {
-      if (!user?.user?.email) return;
-      const response = await fetch(`http://localhost:5000/api/messages/unread/${user.user.email}`);
-      const data = await response.json();
-      setUnreadCount(data.unread_count);
-    } catch (error) {
-      console.error('Okunmamış mesaj sayısı alınamadı:', error);
-    }
-  };
-
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };

@@ -14,11 +14,9 @@ import {
   MenuItem,
   CircularProgress
 } from '@mui/material';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
-import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { useAuth } from '../context/AuthContext';
-import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts';
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts';
 import Swal from 'sweetalert2';
 import dayjs from 'dayjs';
 import 'dayjs/locale/tr';
