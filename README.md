@@ -96,4 +96,4 @@ Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICEN
 
 ## İletişim
 
-Yusuf Üzeyir YILMAZ - [@YusufUzeyir](https://github.com/YusufUzeyir) 
+Yusuf Üzeyir Kaya - [@YusufUzeyir](https://github.com/YusufUzeyir) 
