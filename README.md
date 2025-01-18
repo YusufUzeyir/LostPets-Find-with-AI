@@ -66,7 +66,7 @@ DB_NAME=your_db_name
 JWT_SECRET=your_jwt_secret
 \`\`\`
 
-6. AI modelini indirin ve `backend/src/ai_services/models` klasörüne yerleştirin.
+6. AI modelini [buradan](https://drive.google.com/drive/folders/1H1LxLyGFVyrhjBjCsstAKjhoxpayIZBv?usp=sharing) indirin ve `backend/src/ai_services/models` klasörüne yerleştirin.
 
 7. Uygulamayı başlatın:
 
